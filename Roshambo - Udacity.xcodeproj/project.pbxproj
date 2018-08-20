@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		5033FD65212A779F0028858D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5033FD64212A779F0028858D /* AppDelegate.swift */; };
-		5033FD67212A779F0028858D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5033FD66212A779F0028858D /* ViewController.swift */; };
+		5033FD67212A779F0028858D /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5033FD66212A779F0028858D /* PlayViewController.swift */; };
 		5033FD6A212A779F0028858D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5033FD68212A779F0028858D /* Main.storyboard */; };
 		5033FD6C212A77A00028858D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5033FD6B212A77A00028858D /* Assets.xcassets */; };
 		5033FD6F212A77A00028858D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5033FD6D212A77A00028858D /* LaunchScreen.storyboard */; };
+		5033FD77212A7FED0028858D /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5033FD76212A7FED0028858D /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5033FD61212A779F0028858D /* Roshambo - Udacity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Roshambo - Udacity.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5033FD64212A779F0028858D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5033FD66212A779F0028858D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5033FD66212A779F0028858D /* PlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayViewController.swift; sourceTree = "<group>"; };
 		5033FD69212A779F0028858D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5033FD6B212A77A00028858D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5033FD6E212A77A00028858D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5033FD70212A77A00028858D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5033FD76212A7FED0028858D /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				5033FD64212A779F0028858D /* AppDelegate.swift */,
-				5033FD66212A779F0028858D /* ViewController.swift */,
+				5033FD66212A779F0028858D /* PlayViewController.swift */,
+				5033FD76212A7FED0028858D /* ResultViewController.swift */,
 				5033FD68212A779F0028858D /* Main.storyboard */,
 				5033FD6B212A77A00028858D /* Assets.xcassets */,
 				5033FD6D212A77A00028858D /* LaunchScreen.storyboard */,
@@ -135,8 +138,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5033FD67212A779F0028858D /* ViewController.swift in Sources */,
+				5033FD67212A779F0028858D /* PlayViewController.swift in Sources */,
 				5033FD65212A779F0028858D /* AppDelegate.swift in Sources */,
+				5033FD77212A7FED0028858D /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
