@@ -13,6 +13,8 @@
 		5033FD6C212A77A00028858D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5033FD6B212A77A00028858D /* Assets.xcassets */; };
 		5033FD6F212A77A00028858D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5033FD6D212A77A00028858D /* LaunchScreen.storyboard */; };
 		5033FD77212A7FED0028858D /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5033FD76212A7FED0028858D /* ResultViewController.swift */; };
+		50CE4ABF21446616001734F1 /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CE4ABE21446616001734F1 /* HistoryTableViewController.swift */; };
+		50CE4AC12144690C001734F1 /* MatchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CE4AC02144690C001734F1 /* MatchResults.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		5033FD6E212A77A00028858D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5033FD70212A77A00028858D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5033FD76212A7FED0028858D /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		50CE4ABE21446616001734F1 /* HistoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
+		50CE4AC02144690C001734F1 /* MatchResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchResults.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +63,12 @@
 				5033FD64212A779F0028858D /* AppDelegate.swift */,
 				5033FD66212A779F0028858D /* PlayViewController.swift */,
 				5033FD76212A7FED0028858D /* ResultViewController.swift */,
+				50CE4ABE21446616001734F1 /* HistoryTableViewController.swift */,
 				5033FD68212A779F0028858D /* Main.storyboard */,
-				5033FD6B212A77A00028858D /* Assets.xcassets */,
 				5033FD6D212A77A00028858D /* LaunchScreen.storyboard */,
+				5033FD6B212A77A00028858D /* Assets.xcassets */,
 				5033FD70212A77A00028858D /* Info.plist */,
+				50CE4AC02144690C001734F1 /* MatchResults.swift */,
 			);
 			path = "Roshambo - Udacity";
 			sourceTree = "<group>";
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50CE4ABF21446616001734F1 /* HistoryTableViewController.swift in Sources */,
 				5033FD67212A779F0028858D /* PlayViewController.swift in Sources */,
 				5033FD65212A779F0028858D /* AppDelegate.swift in Sources */,
+				50CE4AC12144690C001734F1 /* MatchResults.swift in Sources */,
 				5033FD77212A7FED0028858D /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

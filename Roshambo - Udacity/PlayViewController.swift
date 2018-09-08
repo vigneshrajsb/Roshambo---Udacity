@@ -83,3 +83,7 @@ enum Selection: Int {
     case scissor = 2
 }
 
+enum Result: String {
+    case Win, Lose, Tie, None
+}
+
